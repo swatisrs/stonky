@@ -8,7 +8,7 @@ with open("readme.md", "r") as fp:
     LONG_DESCRIPTION = fp.read()
 
 with open("requirements.txt", "r") as fp:
-    REQUIREMENTS = fp.read().splitlines()
+    REQUIREMENTS = fp.read().splitlines() //participating in hacktoberfest
 
 setup(
     author="Jessy Williams",
